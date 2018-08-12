@@ -29,7 +29,9 @@ end
 
 
 def add_supply_to_memorial_day(holiday_hash, supply)
-
+(holiday_hash, season, holiday_name, supply_array)
+  holiday_hash[season] = {holiday_name => supply_array} # the new echelon being created is to the left of the equals sign.
+  holiday_hash
 
 end
 
